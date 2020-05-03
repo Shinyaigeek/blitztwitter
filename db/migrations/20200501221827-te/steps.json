@@ -1,0 +1,20 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "DeleteField",
+      "model": "User",
+      "field": "mail"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "User",
+      "field": "img"
+    },
+    {
+      "tag": "DeleteField",
+      "model": "User",
+      "field": "password"
+    }
+  ]
+}
